@@ -1,0 +1,60 @@
+
+.normal {
+	margin-top: .9rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1rem;
+
+}
+.common {
+	margin-bottom: .3rem;
+}
+.successIcon {
+	composes: common;
+	background-color: green;
+	height: 1.5rem;
+	width: 1.5rem;
+	border-radius: 0.75rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.successIcon:before {
+	content: '';
+	display: block;
+	width: 0.9rem;
+	height: 0.45rem;
+	border-left: .12rem solid #fff;
+	border-bottom: .12rem solid #fff;
+	transform: rotate(-45deg);
+	background-color: green;
+	margin-top: -.2rem;
+}
+.successText {
+	composes: common;
+}
+.currentLottery {
+	composes: common;
+}
+.IssueNumber {
+	composes: common;
+}
+.button {
+	width: 80%;
+	text-align: center;
+	height: .9rem;
+	background-color: #1c378a; 
+	color: #fff;
+	line-height: .9rem;
+	margin-top: .5rem;
+	border-radius: .2rem;
+}
+

@@ -1,0 +1,123 @@
+
+.normal {
+	width: 100%;
+	height: 4.8rem;
+}
+.profileHeader {
+	width: 100%;
+	height: 2.6rem;
+	background: url(../../assets/image/usercentr_default_background.png);
+	background-size: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.setting {
+	width: 1rem;
+	height: 1rem;
+	background: url(../../assets/image/top_bar_tools.png) 0 0 no-repeat;
+	background-size: 100%;
+	align-self: flex-end;
+}
+.info {
+	height: 1.38rem;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: .4rem;
+	margin-bottom: .1rem;
+}
+.profileIcon {
+	width: 1.38rem;
+	height: 1.38rem;
+	border-radius: .69rem;
+}
+.username {
+	line-height: 1.34rem;
+	height: 1.38rem;
+	margin-left: .2rem;
+	color: #fff;
+	font-size: .36rem;
+}
+.balance {
+	height: 1.26rem;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	padding-left: .2rem;
+	padding-right: .2rem;
+}
+.balanceWrapper {
+	width: 100%;
+	height: 1.26rem;
+	border-bottom: .01rem solid #f4f4f4;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.money {
+	margin-left: .6rem;
+	font-size: .36rem;
+}
+.moneyIcon {
+	width: .54rem;
+	height: .32rem;
+	margin-right: auto;
+	margin-left: .2rem;
+	background-size: 100%;
+}
+.refreshMoney {
+	margin-right: .6rem;
+	border: .02rem solid #ddd;
+	border-radius: .1rem;
+	padding: .1rem .1rem;
+	font-size: .28rem;
+}
+.cashValue {
+	background: #fff;
+	height: .94rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: .2rem;
+	padding-right: .2rem;
+}
+.cashValueItem {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.cashValueIcon{
+	width: .63rem;
+	height: .63rem;
+	display: block;
+}
+.cashValueText {
+	font-size: .36rem;
+	font-weight: 500;
+	margin-left: .15rem;
+}
+.topUp {
+	composes: cashValueItem;
+	margin-left: .7rem;
+}
+.topUpIcon {
+	composes: cashValueIcon;
+	background: url(../../assets/image/icon_pay.png) 0 0 no-repeat;
+	background-size: 100%;
+}
+.topUpText {
+	composes: cashValueText;
+}
+.withdraw {
+	composes: cashValueItem;
+	margin-right: .7rem;
+}
+.withdrawIcon {
+	composes: cashValueIcon;
+	background: url(../../assets/image/icon_drawings.png) 0 0 no-repeat;
+	background-size: 100%;
+}
+.withdrawText {
+	composes: cashValueText;
+}

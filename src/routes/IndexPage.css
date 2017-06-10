@@ -1,0 +1,11 @@
+.normal {
+  position: relative;
+  max-width: 10rem;
+  margin: 0 auto;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+	zoom: 1;
+}

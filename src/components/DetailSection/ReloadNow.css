@@ -1,0 +1,39 @@
+
+.normal {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30%;
+}
+.img {
+	width: 3.15rem;
+	height: 2.67rem;
+	background: url(../../assets/image/no_data.png) 0 0 no-repeat;
+	background-size: 100%;
+}
+.note {
+	font-size: .36rem;
+	font-weight: 600;
+	letter-spacing: .02rem;
+	margin-top: .2rem;
+}
+.incite{
+	margin-top: .1rem;
+	font-size: .32rem;
+	letter-spacing: .02rem;
+	color: #ccc;
+}
+.button{
+	margin-top: .2rem;
+	width: 62%;
+	height: .9rem;
+	background-color: #3056B2;
+	color: #fff;
+	text-align: center;
+	line-height: .9rem;
+	border-radius: .12rem;
+	font-weight: 600;
+	font-size: .36rem;
+	letter-spacing: .02rem;
+}

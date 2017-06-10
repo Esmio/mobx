@@ -1,0 +1,13 @@
+
+.normal {
+	margin-top: 0.9rem;
+}
+.tabContent{
+	display: flex;
+	margin-bottom: .9rem;
+	flex-flow: row wrap;
+	border-bottom: 0.01rem solid #f4f4f4;
+	align-content: flex-start;
+	align-items: space-between;
+	background-color: #fff;
+}

@@ -1,0 +1,101 @@
+.tap {
+	height: 2.5rem;
+	flex: 0 0 33.33%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-bottom: .01rem solid #f4f4f4;
+}
+.tapImg {
+	width: 1.1rem;
+	height: 1.1rem;
+}
+.tapName {
+	display: block;
+	font-size: .26rem;
+	color: #333;
+}
+.tapCount {
+	display: block;
+	font-size: .2rem;
+	color: #999;
+}
+
+
+.normal {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: #fff;
+	border-top: .01rem solid #f5f5f5;
+	padding-top: .15rem;
+	padding-bottom: .15rem;
+	width: 100%;
+}
+.lottoLeft {
+	width: 1.6rem;
+	height: 1.6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.lottoIcon {
+	width: 1rem;
+	height: 1rem;
+}
+.lottoInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-right: .1rem;
+	flex: 1;
+}
+.infoText {
+	margin-bottom: .15rem;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.title {
+	color: #333;
+	font-size: .28rem;
+	margin-right: .2rem;
+}
+.phase {
+	color: #f4492d;
+	font-size: .24rem;
+	margin-right: .2rem;
+	margin-left: auto;
+	text-align: right;
+}
+.openTime {
+	color: #999;
+	font-size: .28rem;
+	margin-left: .4rem;
+}
+.nextOpenTimeInfo {
+	color: #999;
+	font-size: .24rem;
+}
+.lottoBalls {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: start;
+	align-items: end;
+}
+.ball {
+	display: block;
+	margin-right: .12rem;
+	color: #f4492d; 
+	font-size: .32rem;
+	text-align: center;
+	margin-bottom: .1rem;
+}
+.waiting {
+	width: 2rem;
+	font-size: .26rem;
+	color: #999;
+	text-indent: .1rem;
+}

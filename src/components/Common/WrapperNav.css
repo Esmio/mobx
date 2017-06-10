@@ -1,0 +1,62 @@
+.normal {
+	background: url(../../assets/image/top_bg_640.png) 0 0 no-repeat;
+	background-size: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 100;
+	background-color: #1c378a;
+	width: 100%;
+	height: .9rem;
+}
+.box{
+	width: 80%;
+	// height: 5rem;
+	position: fixed;
+	top: 20%;
+	left: 10%;
+	background-color: #fff;
+	border-radius: .1rem;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 .02rem .2rem rgba(0,0,0,.5);
+}
+.shade{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #000;
+	top: 0;
+	opacity: .3;
+}
+.header{
+	height: .6rem;
+	font-size: .32rem;
+	padding-left: .2rem;
+	line-height: .6rem;
+}
+.content{
+	height: 100%;
+	padding-left: .2rem;
+	padding-right: .2rem;
+	padding-top: .2rem;
+	padding-bottom: .08rem;
+	box-shadow: inset 0 .01rem .01rem rgba(0,0,0,.2);
+	border-radius: 0 0 .1rem .1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.button{
+	padding: .05rem;
+	font-size: .28rem;
+	width: 30%;
+	border: .01rem solid rgba(0,0,0,.2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: .12rem;
+	border-radius: .05rem;
+	box-shadow: 0 .01rem .05rem rgba(0,0,0,.2);
+
+}

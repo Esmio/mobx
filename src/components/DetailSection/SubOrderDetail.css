@@ -1,0 +1,136 @@
+
+.normal {
+	margin-top: .9rem;
+	background-color: #fff;
+	padding-bottom: .55rem;
+}
+.header {
+	display: flex;
+	padding-left: .2rem;
+	padding-right: .2rem;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+	height: 2rem;
+	letter-spacing: .02rem;
+	background-color: #fff;
+	border-bottom: .01rem solid #f2f2f2;
+}
+.icon{
+	margin-right: .4rem;
+}
+img {
+	width: 1.4rem;
+	height: 1.4rem;
+}
+.right{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: .32rem;
+}
+.title{
+	font-weight: 600;
+	font-size: .34rem;
+}
+.game {
+	color: #666;
+	font-weight: 500;
+	font-size: .32rem;
+}
+.result{
+	color: #bbb;
+}
+.number{
+	color: red;
+}
+.order{
+	padding-left: .4rem;
+	padding-right: .2rem;
+	letter-spacing: .02rem;
+	padding-top: .5rem;
+}
+.bet{
+	padding-left: .4rem;
+	padding-right: .2rem;
+	letter-spacing: .02rem;
+	padding-top: .5rem;
+}
+.hint{
+	font-size: .34rem;
+	height: .5rem;
+	font-weight: 600;
+	display: flex;
+	margin-bottom: .3rem;
+
+}
+.hint:before{
+	content: '';
+	display: block;
+	width: .14rem;
+	height: 100%;
+	background-color: #D91D37;
+	margin-right: .2rem;
+}
+.line{
+	padding-left: .2rem;
+	padding-right: .2rem;
+	display: flex;
+	height: .53rem;
+	position: relative;
+	width: 100%;
+}
+.name{
+	color: #666;
+	width: 1.6rem;
+}
+.text{
+	color: #000;
+}
+.copy{
+	border: .01rem solid #4ABFEC;
+	padding: .08rem .16rem;
+	font-size: .28rem;
+	color: #4ABFEC;
+	border-radius: .12rem;
+	position: absolute;
+	right: 10%;
+	top: -.08rem;
+}
+.table{
+	display: flex;
+	width: 100%;
+	height: 1.3rem;
+}
+.row{
+	display: flex;
+	flex-direction: column;
+	flex: 4;
+}
+.item{
+	padding-top: .1rem;
+	padding-bottom: .1rem;
+	text-align: center;
+	font-size: .34rem;
+}
+.up {
+	composes: item;
+	background-color: #39C7FF;
+	color: #fff;
+}
+.down{
+	composes: item;
+	background-color: #F2F2F2;
+	color: #000;
+}
+.button {
+	width: 80%;
+	height: .8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #D91D37;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 2rem;
+	border-radius: .1rem;
+}

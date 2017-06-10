@@ -1,0 +1,35 @@
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.fl {
+	float: left;
+}
+.normal {
+	composes: clearfix;
+	height: .6rem;
+	background-color: #fff;
+	zoom: 1;
+	position: relative;
+}
+.title {
+	display: block;
+	position: absolute;
+	width: .8rem;
+	font-size: .28rem;
+	line-height: .6rem;
+	text-align: center;
+	background-color: #fff;
+	border-bottom: .01rem solid #f4f4f4;
+  color: #ff5b05;
+	z-index: 1;
+}
+.marquee {
+	composes: fl;
+	width: 100%;
+	line-height: .6rem;
+	font-size: .28rem;
+  border: .01rem solid #f4f4f4;
+}

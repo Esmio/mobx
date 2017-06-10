@@ -1,0 +1,12 @@
+
+
+.normal {
+	background: url(../../assets/image/top_bg_640.png) 0 0 no-repeat;
+	background-size: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 100;
+	background-color: #1c378a;
+	width: 100%;
+	height: .9rem;
+}

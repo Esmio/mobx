@@ -1,0 +1,49 @@
+
+.normal {
+	position: fixed;
+	top: .9rem;
+	background-color: #fff;
+	height: 1.5rem;
+	width: 100%;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+.line {
+	display: flex;
+	justify-content: space-between;
+	margin-left: .2rem;
+	margin-right: .2rem;
+}
+.upline {
+	composes: line; 
+	margin-top: .2rem;
+}
+.downline {
+	composes: line; 
+	height: .5rem;
+	margin-bottom: .2rem; 
+}
+.normal span{
+	display: block;
+}
+.title {
+	padding-left: .1rem;
+	font-size: .32rem;
+}
+.note {
+	font-size: .32rem;
+}
+.result {
+	color: #ef2d0e;
+	font-size: .32rem;
+	padding-top: .04rem;
+}
+.counting {
+	padding-right: .1rem;
+	font-size: .4rem; 
+	line-height: .5rem;
+	color: #ef2d0e;
+}

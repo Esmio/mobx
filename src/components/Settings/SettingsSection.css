@@ -1,0 +1,49 @@
+
+.normal {
+	margin-top: .9rem;
+	display: flex;
+	flex-direction: column;
+	jsutify-content: center;
+	align-items: center;
+}
+.button {
+	height: .8rem;
+	line-height: .8rem;
+	width: 80%;
+	margin-top: .45rem;
+	border: none;
+	background-color: #fff;
+	color: #858585;
+	font-size: .28rem;
+	border-radius: .1rem;
+	letter-spacing: .02rem;
+}
+.item {
+	display: flex;
+	width: 100%;
+	height: 1.2rem;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	border-bottom: .01rem solid #f4f4f4;
+}
+.icon {
+	margin-left: .4rem;
+	display: block;
+	height: .63rem;
+	width: .63rem;
+}
+.itemName {
+	margin-right: auto;
+	margin-left: .2rem;
+	font-size: .32rem;
+	color: black;
+}
+.iconNext {
+	margin-right: .4rem;
+	display: block;
+	width: 17px;
+	height: 34px;
+	background: url(../../assets/image/icon_next.png) 0 0 no-repeat;
+	background-size: 100%;
+}

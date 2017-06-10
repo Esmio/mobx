@@ -1,0 +1,79 @@
+
+.normal {
+	display: flex;
+	flex-direction: row;
+	min-height: 1.6rem;
+	align-item: center;
+	justify-content: start;
+	background-color: #fff;
+	border-top: .01rem solid #f5f5f5;
+	padding-top: .15rem;
+	padding-bottom: .15rem;
+}
+.lottoLeft {
+	width: 1.6rem;
+	height: 1.6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.lottoIcon {
+	width: 1rem;
+	height: 1rem;
+}
+.lottoInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-right: .1rem;
+	flex: 1;
+}
+.title {
+	color: #333;
+	font-size: .28rem;
+	margin-right: .2rem;
+}
+.phase {
+	color: #999;
+	font-size: .24rem;
+	margin-right: .2rem;
+}
+.openTime {
+	color: #999;
+	font-size: .24rem;
+}
+.lottoBalls {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: start;
+	align-items: end;
+}
+.ball {
+	width: .46rem;
+	height: .46rem;
+	display: block;
+	background-color: #5891db;
+	margin-right: .18rem;
+	border-radius: .23rem;
+	color: #fff; 
+	font-size: .28rem;
+	line-height: .46rem;
+	text-align: center;
+	margin-bottom: .1rem;
+}
+.waiting {
+	composes: ball;
+	width: 2rem;
+}
+.infoText {
+	margin-bottom: .15rem;
+}
+
+.recordLottoInfo {
+	composes: lottoInfo;
+	margin-left: .2rem;
+}
+.recordNormal {
+	composes: normal;
+	padding-bottom: 0;
+}

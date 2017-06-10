@@ -1,0 +1,54 @@
+
+.normal {
+	position: fixed;
+	bottom: 0;
+	height: .9rem;
+	background: #333;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.button {
+	height: .7rem;
+	width: 1.1rem;
+	background-color: #ff8c00;
+	color: #444;
+	line-height: .7rem;
+	text-align: center;
+	margin-left: .2rem;
+	margin-right: .2rem;
+	border-radius: .08rem;
+	font-size: .36rem;
+	font-weight: 600;
+}
+.clear {
+	composes: button;
+	background-color: #ddd;
+}
+.result {
+	height: 100%;
+	display: flex;
+	color: #fff;
+	flex-direction: column;
+	font-size: .3rem;
+	max-width: 3.5rem;
+}
+.money {
+	color: #e6b272;
+}
+.resultItem {
+	display: block;
+	height: .45rem;
+	line-height: .45rem;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.betResult {
+	composes: resultItem
+}
+.betNum {
+	composes: resultItem
+}

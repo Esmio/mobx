@@ -1,0 +1,109 @@
+
+.normal {
+	display: flex;
+	border-bottom: .01rem solid #ddd;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+}
+.left {
+	width: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.ballsContainer {
+	margin-top: .1rem;
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+}
+.note{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	font-size: .28rem;
+	line-height: .4rem;
+	color: #999;
+}
+.ext{
+	font-size: .24rem;
+	margin-left: .2rem;
+	line-height: .4rem;
+}
+.digit {
+	display: block;
+	width: 1.02rem;
+	height: .45rem;
+	background: url(../../assets/image/bg_place.png) 0 0 no-repeat;
+	font-size: .24rem;
+	line-height: .45rem;
+	text-indent: .15rem;
+	background-size: 100%;
+}
+.odds {
+	display: block;
+	width: 1.02rem;
+	height: .45rem;
+	background: url(../../assets/image/bg_place02.png) 0 0 no-repeat;
+	font-size: .24rem;
+	line-height: .45rem;
+	text-indent: .15rem;
+	background-size: 100%;
+	margin-top: .15rem;
+}
+.ball {
+	width: .8rem;
+	height: .8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: .01rem solid #ddd;
+	text-align: center;
+	border-radius: .4rem;
+	margin-left: .15rem;
+	margin-right: .15rem;
+	background-color: #fff;
+	color: #ef2d0e;
+	margin-bottom: .2rem;
+	font-size: .36rem;
+	position: relative;
+}
+.oddsWrap{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.oddsText{
+	color: #999;
+	display: block;
+	margin-bottom: .2rem;
+	font-size: .24rem;
+}
+.ballWithElement{
+	composes: ball;
+	flex-direction: column;
+}
+.ballName {
+	font-size: .42rem;
+}
+.ballList {
+	font-size: .32rem;
+	text-align: left;
+	padding-left: .2rem;
+	padding-top: .2rem;
+	opacity: .7;
+}

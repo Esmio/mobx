@@ -1,0 +1,45 @@
+
+.normal {
+	background-color: #f4f4f4;
+	margin-bottom: 1rem;
+}
+.orderTop {
+	margin-left: .2rem;
+	margin-right: .2rem;
+	height: .12rem;
+	background: url(../../assets/image/order_top.png) 0 0 no-repeat;
+	background-size: 100%;
+}
+.betItem {
+	position: relative;
+	height: 1.5rem;
+	margin-left: .4rem;
+	margin-right: .4rem;
+	display: flex;
+	background-color: #fff;
+}
+.itemText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.result {
+	margin-left: .4rem;
+	color: red;
+	font-size: .40rem;
+	font-weight: 600;
+}
+.number {
+	margin-top: .1rem;
+	margin-left: .2rem;
+}
+.delete {
+	align-self: center;
+	right: .2rem;
+	position: absolute;
+	width: .4rem;
+	height: .4rem;
+	display: block;
+	background: url(../../assets/image/icon_delete.png) 0 0 no-repeat;
+	background-size: 100%;
+}

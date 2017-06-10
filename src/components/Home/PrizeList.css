@@ -1,0 +1,34 @@
+
+.normal {
+}
+.wrapper {
+	height: 1.6rem;
+	overflow: hidden;
+	margin-bottom: .1rem;
+	position: relative;
+}
+.listItem {
+	position: absolute;
+	transition: top 1s;
+}
+.prizeList {
+	display: flex;
+	flex-direction: row;
+}
+.prizeItem {
+	text-align: left; 
+	color: #999;
+}
+.prizeName {
+	composes: prizeItem;
+	flex: 3;
+}
+.prizeAmount {
+	composes: prizeItem;
+	color: red;
+	flex: 4;
+}
+.prizeGame {
+	composes: prizeItem;
+	flex: 3;
+}

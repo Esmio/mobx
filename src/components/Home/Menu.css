@@ -1,0 +1,27 @@
+
+.normal {
+	display: flex;
+	flex-direction: row;
+	padding-top: .15rem;
+	padding-bottom: .15rem;
+	background: #fff;
+  width:100%;
+}
+.item {
+	display: flex;
+	flex: 3;
+	flex-direction: column;
+
+}
+.item span{
+	display: block;
+}
+.img {
+	width: 1rem;
+	height: 1rem;
+	margin: 0 auto;
+}
+.itemName {
+	font-size: .24rem;
+	text-align: center;
+}

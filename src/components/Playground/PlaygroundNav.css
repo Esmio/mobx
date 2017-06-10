@@ -1,0 +1,151 @@
+.normal {
+	background: url(../../assets/image/top_bg_640.png) 0 0 no-repeat;
+	background-size: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 100;
+	background-color: #1c378a;
+	width: 100%;
+	height: .9rem;
+}
+.titleMethod {
+	color: #fff;
+	font-size: .20rem;
+	width: 1em;
+	white-space: pre-wrap;
+	height: .58rem;
+	margin-right: .1rem;
+}
+.title {
+	color: #fff;
+	border: .02rem solid #fff;
+	display: block;
+	height: .66rem;
+	line-height: .66rem;
+	padding-left: .1rem;
+	padding-right: .56rem;
+	border-radius: .05rem;
+	position: relative;
+	font-size: .36rem;
+	max-width: 3.5rem;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.titleArrow {
+	background: url(../../assets/image/top_bar_arrow.png)  0 0 no-repeat;
+	display: block;
+	width: .33rem;
+	margin-left: .1rem;
+	height: .21rem;
+	position: absolute;
+	right: .12rem;
+	top: .22rem;
+}
+
+.mask {
+	background-color: #000;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .2;
+}
+.selectPane {
+	z-index: 4;
+	top:.9rem;
+	background: #fff;
+	width: 100%;
+	position: fixed;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.paneTitle {
+	font-size: .36rem;
+	padding-top: .1rem;
+	padding-bottom: .1rem;
+}
+.sectionWrap {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.sectionTitle {
+	color: #777;
+	font-size: .28rem;
+	display: block;
+	padding-top: .05rem;
+	padding-bottom: .05rem;
+}
+.navSection {
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+.button {
+	display: block;
+	width: 30%;
+	height: .8rem;
+	border: .01rem solid #d4d4d4;
+	line-height: .8rem;
+	text-align: center;
+	border-radius: 0.1rem;
+	margin-bottom: .2rem;
+	font-size: .28rem;
+	box-shadow: .05rem .05rem .2rem #ddd;
+	font-weight: 600;
+}
+.popover {
+	position: fixed;
+	right: .2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 1.5rem;
+	height: 2rem;
+	background-color: #fff;
+	box-shadow: 0 .05rem 0.05rem #f4f4f4;
+	border: .01rem solid #f4f4f4;
+	z-index: 3;
+}
+.popItem {
+	font-size: .28rem;
+	display: block;
+	height: .6rem;
+	line-height: .6rem;
+	padding: 0 .05rem; 
+}
+.betRecord {
+	composes: popItem;
+	border-bottom: .01rem solid #f4f4f4;
+}
+.startHistory {
+	composes: popItem;
+	border-bottom: .01rem solid #f4f4f4;
+}
+.playInstruction {
+	composes: popItem;
+
+}
+.popover:before {
+	content: '';
+	display: block;
+	border: .1rem solid blue;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-bottom-color: #fff;
+	position: fixed;
+	top: .71rem;
+	right: .4rem;
+}
+

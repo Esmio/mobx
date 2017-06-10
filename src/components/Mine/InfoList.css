@@ -1,0 +1,38 @@
+
+.normal {
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+.item {
+	display: flex;
+	height: .9rem;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	border-bottom: .01rem solid #f4f4f4;
+}
+.icon {
+	margin-left: .2rem;
+	display: block;
+	height: .63rem;
+	width: .63rem;
+}
+.itemName {
+	margin-right: auto;
+	margin-left: .2rem;
+	font-size: .32rem;
+	color: black;
+}
+.iconNext {
+	margin-right: .3rem;
+	display: block;
+	width: 17px;
+	height: 34px;
+	background: url(../../assets/image/icon_next.png) 0 0 no-repeat;
+	background-size: 100%;
+}
+.settings {
+	composes: item;
+	margin-top: .4rem;
+	margin-bottom: 2rem;
+}
